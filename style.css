@@ -1,0 +1,84 @@
+
+
+html{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.nav-bar{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    align-content: center;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.head{
+    color: rgb(234, 229, 229);
+    font-size: 2.5rem;
+}
+.head-text{
+    color: rgb(234, 229, 229);
+    /* font-size: 2.5rem; */
+}
+
+
+
+.nav-bar button{
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.home-btn{
+    color: rgb(234, 229, 229);
+    transition: .5s;
+}
+
+.home-btn:hover{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+.back-video{
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+        }
+    }
+
+.name{
+    transition: 0.5s;
+}
+.name:hover{
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+}
+
+.home-svg{
+    fill: #fff;
+}
+
+.project_link{
+    text-decoration: none;
+    color: whitesmoke;
+}
