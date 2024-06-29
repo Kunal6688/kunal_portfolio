@@ -1,0 +1,18 @@
+@media (max-width : 580px) {
+    .head-text{
+        display: none;
+        /* background-color: aqua; */
+    }
+}
+
+@media (min-width : 1078px)and (max-width : 1158px){
+    .back-video{
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: black;
+        /* bottom: 0; */
+        z-index: -1;
+    }
+}
