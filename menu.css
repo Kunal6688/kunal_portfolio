@@ -1,0 +1,75 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #34343c;
+
+}
+
+.nav-bar{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-bar button{
+    margin-right: 2rem;
+}
+
+.home-btn{
+    background-color: transparent;
+    border: none;
+}
+
+
+.menu-items {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+}
+
+.menu-items ol{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-items h1{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 15px;    
+    transition: .8s;
+}
+
+.menu-items h1:hover{
+    transition: .8s;
+    letter-spacing: -4px;   
+    cursor: pointer;
+
+} 
+
+
+
+
+
+/* p{
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: 20px;    
+    transition: 1s;
+}
+
+

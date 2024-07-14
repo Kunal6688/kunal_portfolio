@@ -1,0 +1,93 @@
+
+
+html{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: auto;
+    width: auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.home-btn svg:hover{
+    filter: blur(.5px);
+    transition: .3s;
+}
+
+.home-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.head{
+    color: black;
+    font-size: 2.5rem;
+}
+.head-text{
+    color: black;
+    font-weight: 600;
+    /* font-size: 2.5rem; */
+}
+
+
+
+.nav-bar button{
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+.back-video{
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+        }
+    }
+
+.name{
+    transition: 0.5s;
+}
+.name:hover{
+    -webkit-text-stroke: 0.5px #fff;
+    color: transparent;
+}
+
+.home-svg{
+    fill: #fff;
+}
+
+.project_link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
