@@ -58,10 +58,9 @@
 }
 
 .image-div img{
-    /* object-fit: cover; */
-    height: 35rem;
-    width: 28rem;
-    border-bottom-left-radius: 2rem ;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50% ;
 }
 
 
