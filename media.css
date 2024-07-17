@@ -137,4 +137,21 @@
 
 
 
+/* ---------------------------------------MENU----------------------------------------- */
+
+@media (max-width:700px){
+  .menu-items h1{
+    font-size: 2rem;
+    
+  }
+
+  .menu-items ol{
+    margin-top: 7rem;
+    margin-left: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+}
+
+
 
